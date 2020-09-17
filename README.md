@@ -1,3 +1,3 @@
 # services
-It's my frist front end website
+This is my frist frontend website that I worked on
 <p align="center"><img src="images/Portfolio.jpg" width="400"></p>
