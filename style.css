@@ -1,0 +1,213 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: #42565d;
+}
+main{
+    width: 960px;
+    height: auto;
+    /* border: solid 2px wheat; */
+    margin-left: auto;margin-right: auto;
+}
+
+header{
+    width: 960px; height: 100px;
+    /* background-color: tomato; */
+}
+header img{
+    margin-left: 50px; margin-top: 15px;
+}
+
+nav{
+    width: 938px; height: 48px;
+    border: solid 1px #3c4d53;
+    margin-left: 10px;
+    background-image:
+    linear-gradient(#556b73,#2b383d);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    width: 116.25px; height: 48px;
+    border-right: solid 1px #3c4d53;
+    text-align: center; line-height: 48px;
+    text-decoration: none; 
+    color: #6b8890; font-size: 16px;
+   text-transform: uppercase;
+    font-family: arial; letter-spacing: 1px;
+}
+nav ul li a:hover{
+    color: white; 
+    background-color: #42565d;
+}
+
+.slide{
+    width:960px ; height: 262px;
+}
+
+
+.services{
+    margin-top: 10px;
+    width:940px ; height: 280px;
+    margin-left: 10px;
+    background-image:
+    linear-gradient(#4d646c , #3e5157);
+}
+.left-serv{
+    width:470px ; height: 280px; 
+    /* background-color: tomato; */
+    float: left;
+    position: relative;
+}
+.right-serv{
+    width:470px ; height: 280px; 
+    /* background-color: yellow; */
+    float: right;
+    position: relative;
+}
+
+.left-serv h3{
+ position: absolute; left: 20px;
+ top: 15px;
+    color: #8bac28; font-size: 18px;
+    font-family: arial;
+}
+
+.left-serv .p-top{
+    position: absolute; left: 20px;
+    top: 45px;
+    color: #fff; font-size: 14px;
+    font-family: arial;
+    text-align: justify;
+    width: 420px;
+}
+.left-serv .p-bottom{
+    position: absolute; left: 20px;
+    top: 160px;
+    color: #fff; font-size: 14px;
+    font-family: arial;
+    text-align: justify;
+    width: 420px;
+}
+
+.right-serv h3{
+    position: absolute; left: 20px;
+    top: 15px;
+       color: #8bac28; font-size: 18px;
+       font-family: arial;
+}
+.right-serv p{
+    position: absolute; left: 20px;
+    top: 50px;
+    color: #fff; font-size: 14px;
+    font-family: arial;
+    text-align: justify;
+    width: 250px;
+}
+.right-serv ul{
+    position: absolute; left: 20px;
+    top: 120px;
+    color: #fff; font-size: 14px;
+    font-family: arial;
+    /* list-style-image: url(images/check.png); */
+    list-style: none;
+}
+.right-serv ul li{
+     background-image: url(images/check.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-bottom: 7px;
+    line-height: 20px;
+}
+
+.right-serv .img1{
+    position: absolute;
+    right: -13px; top: 10px;
+}
+
+.right-serv .img2{
+    position: absolute;
+    right: 5px; bottom: 10px;
+}
+
+.left-serv img{
+    position: absolute; right: 0px;
+    top: 36px;
+}
+
+.photo{
+    margin-left: 130px; margin-bottom: 10px;
+}
+
+.bottom-content{
+    width:940px ; height: 200px;
+    margin-left: 10px;
+    background-image:
+    linear-gradient(#3e5157,  #4d646c );
+    position: relative;
+}
+
+.bottom-content h3{
+    position: absolute; left: 20px;
+    top: 15px;
+       color: #8bac28; font-size: 18px;
+       font-family: arial;
+ }
+
+ .bottom-content p{
+    position: absolute; left: 20px;
+    top: 50px;
+    color: #fff; font-size: 14px;
+    font-family: arial;
+    text-align: justify;
+    margin-right: 20px;
+ }
+
+ .bottom-content img{
+    position: absolute; right: 20px;
+    bottom:  10px; opacity: .5;
+ }
+
+ footer{
+    width: 960px; height: 60px;
+}
+
+ footer p{
+     float: left;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-top: 20px;
+     color: #fff; font-size: 14px;
+     font-family: arial;
+ }
+ .waly{
+     font-size: 16px; font-weight: bold;
+     color: yellowgreen;
+ }
+
+ .products{
+     width: 960px; 
+     background-color: tomato;
+ }
+
+ .products article{
+     width: 300px; float: left; margin: 10px; text-align: center;color: white;
+ }
+ .products article img{
+     width: 240px;  margin-left:30px ; border-radius: 12px;
+ }
+
+ .products article a{
+     text-decoration: underline;
+     color:  yellowgreen;
+ }
+ .products article a:hover{
+    text-decoration: none;
+    color: white;
+ }
